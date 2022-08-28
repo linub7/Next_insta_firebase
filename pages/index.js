@@ -1,3 +1,4 @@
+import HeaderComponent from 'components/headerComponent';
 import Head from 'next/head';
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
 
       {/* Header */}
+      <HeaderComponent />
 
       {/* Feed */}
 
