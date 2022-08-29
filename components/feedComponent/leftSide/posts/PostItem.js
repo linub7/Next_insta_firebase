@@ -1,4 +1,6 @@
 import PostButtons from './PostButtons';
+import PostCaption from './PostCaption';
+import PostCommentInput from './PostCommentInput';
 import PostHeader from './PostHeader';
 import PostImage from './PostImage';
 
@@ -10,6 +12,10 @@ const PostItem = ({ post }) => {
       <PostImage img={post?.img} />
 
       <PostButtons />
+
+      <PostCaption username={post?.username} caption={post?.caption} />
+
+      <PostCommentInput />
     </div>
   );
 };
