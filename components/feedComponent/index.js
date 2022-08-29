@@ -8,7 +8,7 @@ const FeedComponent = () => {
         {/* Left Side */}
         <FeedLeftSide />
       </div>
-      <div className="hidden md:inline-grid md:col-span-1">
+      <div className="hidden md:block md:col-span-1">
         {/* Right Side */}
         <FeedRightSide />
       </div>
