@@ -15,12 +15,14 @@ const FeedRightSideMiniProfile = () => {
           />
         </div>
         <div className="flex-1 ml-3">
-          <h1 className="font-bold md:text-sm lg:text-base">Muhammad Hadi</h1>
+          <h1 className="font-bold md:text-sm lg:text-base cursor-pointer">
+            Muhammad Hadi
+          </h1>
           <h3 className="text-sm text-gray-400 md:text-xs lg:text-sm">
             Welcome to Instagram
           </h3>
         </div>
-        <button className="text-blue-400 hover:font-semibold hover:text-blue-600 hover:underline transition-all duration-200 ease-out">
+        <button className="text-blue-400 hover:font-semibold hover:text-blue-600 hover:underline transition-all duration-200 ease-out md:text-sm lg:text-base">
           Sign out
         </button>
       </div>

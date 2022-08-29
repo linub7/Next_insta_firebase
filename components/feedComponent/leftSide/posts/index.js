@@ -22,7 +22,7 @@ const FeedLeftSidePosts = () => {
   return (
     <div>
       {posts?.map((post) => (
-        <PostItem key={post?.key} post={post} />
+        <PostItem key={post?.id} post={post} />
       ))}
     </div>
   );
